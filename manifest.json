@@ -1,0 +1,29 @@
+{
+    "id" : "./pages/index.html",
+    "name" : "H2049JA-Water Tracker",
+    "short-name" : "H2049JA",
+    "description" : "Track ur daily water intake,build hydration streak and stay ontop of your hydration goals",
+    "start_url" : "./index.html",
+    "scope" : "./",
+    "display ": "standalone",
+    "orientation" : "portrait",
+    "theme_color" : "#1686d9",
+    "background_color" : "#f4f8fc",
+    "icon" : [
+        {
+            "scr" : "./asset/icon/icon-192.png",
+            "size" : "192 x 192",
+            "type" :"image/png",
+            "purpose" : "any"
+        },
+
+         {
+            "scr" : "./asset/icon/icon-512.png",
+            "size" : "512 x 512",
+            "type" :"image/png",
+            "purpose" : "any"
+        }
+    ]
+
+
+}   
