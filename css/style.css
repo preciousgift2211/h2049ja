@@ -552,6 +552,7 @@ img, svg{
     color:var(--muted);
     font-weight: 600;
     transition: background 180ms ease, color 180ms ease;
+    
 }
 .nav-link > span:first-child{
     width: 22px;
@@ -3578,4 +3579,110 @@ img, svg{
   .settings-panel-heading {
     margin-bottom: 20px;
   }
+}
+
+/* ========================================
+   DARK THEME
+======================================== */
+
+html.dark-theme body {
+  background: #111827;
+  color: #E5E7EB;
+}
+
+html.dark-theme h1,
+html.dark-theme h2,
+html.dark-theme h3,
+html.dark-theme h4 {
+  color: #F9FAFB;
+}
+
+html.dark-theme .card,
+html.dark-theme .settings-panel,
+html.dark-theme .sidebar,
+html.dark-theme .bottom-nav,
+html.dark-theme .mobile-bottom-nav {
+  background: #1F2937;
+  border-color: #374151;
+  color: #E5E7EB;
+}
+
+html.dark-theme .brand,
+html.dark-theme .sidebar-footer p,
+html.dark-theme .water-total,
+html.dark-theme .progress-percentage,
+html.dark-theme .streak-number,
+html.dark-theme .temperature,
+html.dark-theme .water-entry-details p:first-child,
+html.dark-theme .empty-state p:first-of-type {
+  color: #F9FAFB;
+}
+
+html.dark-theme .welcome-message > p:last-child,
+html.dark-theme .settings-panel p,
+html.dark-theme .sidebar-footer span,
+html.dark-theme .muted-text,
+html.dark-theme .eyebrow,
+html.dark-theme .calendar-day-name {
+  color: #9CA3AF;
+}
+
+html.dark-theme input,
+html.dark-theme select,
+html.dark-theme textarea {
+  background: #111827;
+  color: #F9FAFB;
+  border-color: #374151;
+}
+
+html.dark-theme input::placeholder {
+  color: #9CA3AF;
+}
+
+html.dark-theme .water-button {
+  background: #1F2937;
+  color: #F9FAFB;
+  border-color: #374151;
+}
+
+html.dark-theme .water-button:hover {
+  background: #263548;
+}
+
+html.dark-theme .weather-card {
+  background: linear-gradient(145deg, #1F2937, #172638);
+}
+
+html.dark-theme .weather-tip,
+html.dark-theme .date-label,
+html.dark-theme .activity-count,
+html.dark-theme .calendar-day-number {
+  background: #374151;
+  border-color: #4B5563;
+  color: #E5E7EB;
+}
+
+html.dark-theme .weather-tip > p:last-child,
+html.dark-theme #weather-condition,
+html.dark-theme .streak-message {
+  color: #E5E7EB;
+}
+
+html.dark-theme .hydration-divider,
+html.dark-theme .streak-divider,
+html.dark-theme .water-entry {
+  border-color: #374151;
+}
+
+html.dark-theme .hydration-divider,
+html.dark-theme .streak-divider {
+  background: #374151;
+}
+
+html.dark-theme .bottom-nav {
+  background: rgba(31, 41, 55, 0.96);
+}
+
+html.dark-theme .settings-note {
+  color: #9CA3AF;
 }

@@ -1,14 +1,15 @@
-const CACHE_NAME = "h2049ja-v2"
+const CACHE_NAME = "h2049ja-v3"
 const APP_FILES = [
     "./index.html",
     "./pages/history.html",
-    "./pages/setting.html",
+    "./pages/settings.html",
     "./pages/index.html",
     "./css/style.css",
     "./js/app.js",
     "./js/history.js",
     "./js/onboarding.js",
     "./js/setting.js",
+    "./js/theme.js",
     "./manifest.json",
     "./assest/icon/icon-192.png",
     "./assest/icon/icon-512.png"
